@@ -43,7 +43,143 @@
     </nav>
     </header>
 
-    <main></main>
+    <main class="main-index">
+      <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
+      <img class="logo" src="" alt="Логотип барбершопа Бородинский">
+
+      <section class="advantages">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <h3 class="advantages-title">Быстро</h3>
+            <p class="advantages-description">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+          </li>
+          <li class="advantages-item">
+            <h3 class="advantages-title">Круто</h3>
+            <p class="advantages-description">Забудьте, как вы стриглись раньше.Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+          </li>
+          <li class="advantages-item">
+            <h3 class="advantages-title">Дорого</h3>
+            <p class="advantages-description">Наши мастера — профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не даёт определённый статус?</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="services">
+        <h2 class="services-title">Популярные услуги</h2>
+        <ul class="services-list">
+          <li class="services-item">
+            <span class="services-name">Стрижка машинкой</span>
+            <span class="services-price">800 ₽</span>
+          </li>
+          <li class="services-item">
+            <span class="services-name">Стрижка усов</span>
+            <span class="services-price">1200 ₽</span>
+          </li>
+          <li class="services-item">
+            <span class="services-name">Груминг</span>
+            <span class="services-price">400 ₽</span>
+          </li>
+          <li class="services-item">
+            <span class="services-name">Комплексная стрижка</span>
+            <span class="services-price">2300 ₽</span>
+          </li>
+        </ul>
+        <a class="button button-allservices" href="#">Посмотреть все</a>
+      </section>
+
+      <section class="gallery">
+        <h2 class="gallery-title">Фотогалерея</h2>
+        <img class="slider-image" src="" alt="Примеры работ">
+        <button class="slider-button slider-prev" type="button">
+          <span class="visually-hidden">Предыдущее фото</span>
+        </button>
+        <button class="slider-button slider-next" type="button">
+          <span class="visually-hidden">Следущее фото</span>
+        </button>
+        <ol class="slider-pangination">
+          <li class="slider-pangination-item">
+            <button class="slider-pangination-button slider-pangination-button-first" type="button">
+              <span class="visually-hidden">1 фото</span>
+            </button>
+          </li>
+          <li class="slider-pangination-item">
+            <button class="slider-pangination-button" type="button">
+              <span class="visually-hidden">2 фото</span>
+            </button>
+          </li>
+          <li class="slider-pangination-item">
+            <button class="slider-pangination-button" type="button">
+              <span class="visually-hidden">3 фото</span>
+            </button>
+          </li>
+          <li class="slider-pangination-item">
+            <button class="slider-pangination-button" type="button">
+              <span class="visually-hidden">4 фото</span>
+            </button>
+          </li>
+        </ol>
+      </section>
+
+      <section class="contacts">
+        <h2 class="contacts-title">Контакты</h2>
+        <h3 class="contacts-subtitle">Барбершоп «Бородинский»</h3>
+        <adress class="contacts-adress">
+          <p class="contacts-adress-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          <a class="contacts-phone" href="tel:88005558628">8 800 555-86-28</a>
+        </adress>
+        <h3 class="contacts-subtitle">Время работы</h3>
+        <ul class="contacts-schedule-list">
+          <li class="schedule-item">пн—пт: с 10:00 до 22:00</li>
+          <li class="schedule-item">сб—вс: с 10:00 до 19:00</li>
+        </ul>
+        <a class="button" href="#">Как проехать</a>
+        <a class="button button-feedback" href="#">Обратная связь</a>
+      </section>
+
+      <section class="appointment">
+        <h2 class="appointment-title">Записаться</h2>
+        <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони.</p>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+
+          <p class="appointment-form-date">
+          <span class="form-label form-label-icon">
+          <label for="appointment-date">Дата</label>
+          <button class="info" type="button">
+            <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+          </button>
+          </span>
+          <input type="text" name="appointment-date" id="appointment-date" placeholder="01.01.2020">
+          </p>
+
+          <p class="appointment-form-time">
+            <span class="form-label form-label-icon">
+            <label for="appointment-time">Время</label>
+            <button class="info" type="button">
+              <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+            </button>
+            </span>
+            <input type="text" name="appointment-time" id="appointment-time" placeholder="10:10">
+          </p>
+
+          <p class="appointment-form-phone">
+            <label for="appointment-phone">Телефон</label>
+            <input type="text" name="appointment-phone" id="appointment-phone" placeholder="+7 800 000-00-00">
+            </p>
+
+            <p class="appointment-form-name">
+              <label for="appointment-name">Ваше имя</label>
+              <input type="text" name="appointment-name" id="appointment-name">
+            </p>
+
+          <button class="button" type="submit">Записаться</button>
+
+        </form>
+      </section>
+    </main>
+
+      <!-- !!!!!Закончила разметку main -->
+
     <footer></footer>
 
 
