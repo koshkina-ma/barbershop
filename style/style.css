@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/pt-sans-italic.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* PT Sans Narrow */
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-narrow-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #FBF7F4;
+}
+
+/* Pages */
+.main-header {
+  color: #FFFFFF;
+  background: #000000;
+}
+
+.navigation-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-index {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("/img/background-main.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/* List */
+.advantages-list {
+  text-align: center;
+}
+
+/*Title*/
+.advantages-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* Index columns */
+.index-columns {
+  color: #242424;
+  background-color: #FBF7F4;
+  background-image: url("/img/noisy-texture.png");
+}
+
+
+/* Services*/
+
+.services{
+  text-transform: uppercase;
+}
+
+.services-title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+.services-name {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.services-price {
+  color: #AF7842;
+
+}
+
+/* закончила на 35/43 шаге в первой демке
